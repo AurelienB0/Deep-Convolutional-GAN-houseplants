@@ -12,7 +12,7 @@ The model is a 15M parameters DC GAN trained ~10hours on a T4 GPU and it feature
 
 
 
-Tips that helped me train the capricious generator:
+Tips that helped me train the (very capricious and unstable) generator:
 - label smoothing
 - training the gen 3-5 times for each discriminator update
 - having the discriminator accuracy around 70%
